@@ -207,7 +207,15 @@ body {
   background-color: #fff;
 }
 
+.modal {
+  color: #333;
+}
+
 /* Portfolio */
+#filters {
+  padding: 0;
+}
+
 .filter a {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
@@ -217,7 +225,8 @@ body {
 
 .filter li {
   display: inline-block;
-  padding: 5px;
+  margin-bottom: 2px;
+  /* padding: 5px; */
 }
 
 .filter .current {
@@ -363,5 +372,10 @@ body {
   .titleMessage .main {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .filter a {
+    padding: 10px 14px;
+    letter-spacing: initial;
   }
 }

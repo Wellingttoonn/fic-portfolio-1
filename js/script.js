@@ -77,6 +77,10 @@ $(document).ready(function () {
     }
   });
 
+  $("#contactModal").on("shown.bs.modal", function () {
+    $("#sender-name").trigger("focus");
+  });
+
   // FANCYBOX
   $("[data-fancybox]").fancybox();
 
